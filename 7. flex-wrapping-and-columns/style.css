@@ -203,14 +203,18 @@ input::-moz-focus-inner {
   flex-wrap: wrap;
   flex-direction: column;
   border: 10px solid goldenrod;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .box {
-  /* flex-basis: 500px; */
+  flex-basis: 250px;
   flex-grow: 1;
 }
 
 .box3 {
-  flex-grow: 10;
+  flex-grow: 5;
+}
+
+.box4 {
+  flex-basis: 100px;
 }
