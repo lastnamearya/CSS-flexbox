@@ -1,0 +1,20 @@
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.box1 {
+  -ms-flex: 10 5 450px;
+  flex: 10 5 450px;
+}
+
+.box2 {
+  -ms-flex: 1 1 360px;
+  flex: 1 1 360px;
+}
