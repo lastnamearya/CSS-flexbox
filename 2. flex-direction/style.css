@@ -202,6 +202,13 @@ input::-moz-focus-inner {
   display: flex;
   border: 10px solid goldenrod;
   min-height: 100vh;
-  flex-direction: column-reverse;
-  /* flex-direction: row-reverse; */
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* flex-wrap: wrap-reverse; */
+}
+
+.box {
+  width: calc(33.3333% - 20px);
+  /* margin: 10px; */
+  /* border: 10px solid mistyrose; */
 }
