@@ -72,3 +72,15 @@ a:hover {
   display: block;
   width: 100%;
 }
+
+/* Making it responsive for Mobile Screens */
+
+@media all and (max-width: 500px) {
+  .slider-nav ul {
+    flex-wrap: wrap;
+  }
+
+  .slider-nav li {
+    flex-basis: 100%;
+  }
+}
